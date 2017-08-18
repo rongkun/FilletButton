@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.kun.filletbuttondemo.MainActivity">
+
+   <com.kun.filletbuttondemo.view.FilletButton
+       android:id="@+id/btn_1"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_marginTop="30dp"
+       android:clickable="true"
+       app:bgcolor_f="#ff9933"
+       app:bgcolor_press_f="#8b5104"
+       app:textcolor_f="#a46bea"
+       app:text_f="测试1"
+       app:textsize_f="20sp" />
+   <com.kun.filletbuttondemo.view.FilletButton
+       android:layout_width="200dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="30dp"
+       android:clickable="true"
+       app:bgcolor_f="#0ea8ea"
+       app:bgcolor_press_f="#06d21e"
+       app:text_f="测试2"
+       app:textsize_f="20sp" />
+   <com.kun.filletbuttondemo.view.FilletButton
+       android:layout_width="200dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="30dp"
+       android:clickable="true"
+       app:bgcolor_f="#e40636"
+       app:bgcolor_press_f="#ecf976"
+       app:radius_f="10dp"
+       app:text_f="测试3"
+       app:textsize_f="20sp" />
+
+   <com.kun.filletbuttondemo.view.FilletButton
+       android:id="@+id/change"
+       android:layout_width="200dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="30dp"
+       android:clickable="true"
+       app:bgcolor_f="#e006e4"
+       app:bgcolor_press_f="#cf2418"
+       app:radius_f="10dp"
+       app:text_f="更改测试1颜色"
+       app:textsize_f="20sp" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--圆角Button-->
+    <declare-styleable name="FilletButton">
+        <attr name="text_f" format="string|reference"/>
+        <attr name="textsize_f" format="dimension"/>
+        <attr name="textcolor_f" format="color|reference"/>
+        <attr name="width_f" format="dimension|reference"/>
+        <attr name="height_f" format="dimension|reference"/>
+        <attr name="bgcolor_f" format="color|reference"/>
+        <attr name="bgcolor_press_f" format="color|reference"/>
+        <attr name="radius_f" format="dimension|reference"/>
+    </declare-styleable>
+</resources>
