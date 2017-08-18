@@ -1,1 +1,1 @@
-https://github.com/rongkun/FilletButton/master/raw/fillet_btn.gif
+https://github.com/rongkun/FilletButton/raw/fillet_btn.gif
